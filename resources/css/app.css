@@ -1,0 +1,16 @@
+.card_product{
+    grid-template-columns: 1fr 2fr;
+    display: grid;
+    grid-gap: 10px;
+    justify-content: center;
+}
+
+.name_product{
+    /*border: 1px solid black;*/
+    padding: 10px;
+}
+
+.img_product{
+    /*border: 1px solid black;*/
+    justify-self: center;
+}

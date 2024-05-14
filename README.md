@@ -64,3 +64,10 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+
+## Laravel начальный уровень  (1 день)
+Создать приложение на Laravel
+* Есть пользователь с admin@admin.com  pass: secret должен быть предустановлен через сидер
+* После авторизации есть форма в которой есть кнопка загрузить.
+* При нажатии на кнопку Загрузить в грид загружается список товаров maybelline из этого [api](http://makeup-api.herokuapp.com/api/v1/products.json?brand=maybelline). На странице показывать название + изображение.
