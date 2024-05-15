@@ -9,19 +9,6 @@
 
 ## Подключение
 
-
-* скачать репозиторий
-* composer update
-* ./vendor/bin/sail up -d
-* ./vendor/bin/sail artisan migrate --seed
-* ./vendor/bin/sail npm run dev
-* Вместо многократного набора команд vendor/bin/sailдля выполнения команд Sail вы можете настроить псевдоним оболочки, который позволит вам легче выполнять команды Sail:
-`alias sail='sh $([ -f sail ] && echo sail || echo vendor/bin/sail)'`
-
-подробнее [в документации Laravel](https://laravel.com/docs/11.x/sail#executing-artisan-commands)
-
-или
-
 * скачать репозиторий
 
 * docker run --rm \
