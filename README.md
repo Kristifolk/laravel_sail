@@ -19,3 +19,19 @@
 `alias sail='sh $([ -f sail ] && echo sail || echo vendor/bin/sail)'`
 
 подробнее [в документации Laravel](https://laravel.com/docs/11.x/sail#executing-artisan-commands)
+
+или
+
+* скачать репозиторий
+
+* composer update
+
+* docker run --rm \
+-u "$(id -u):$(id -g)" \
+-v "$(pwd):/var/www/html" \
+-w /var/www/html \
+laravelsail/php82-composer:latest \
+composer install --ignore-platform-reqs
+
+* npm install
+* sail npm run dev
